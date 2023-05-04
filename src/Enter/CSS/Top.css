@@ -1,7 +1,37 @@
 
 
 .enter-top-container {
-    height: 100%;
-    width: 50%;
-    background-color: blue;
+    height: 60%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.enter-top-title {
+    background-color: violet;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.enter-top-image {
+    background-color: sandybrown;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.enter-top-image-content {
+   
+    height: 80%;
+    background-color: aqua;
 }

@@ -5,6 +5,7 @@ import "./EnterPage.css"
 
 function EnterPage() {
   return (
+
     <div className='enter-wrapper'>
         <div className='enter-inner'>
             <Top/>

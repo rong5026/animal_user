@@ -1,0 +1,21 @@
+
+
+.enter-wrapper {
+    height: 100vh;
+    width: 100%;
+    bottom: 0;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enter-inner {
+    height: 90vh;
+    width: 90%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

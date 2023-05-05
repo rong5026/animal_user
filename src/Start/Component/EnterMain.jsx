@@ -1,7 +1,6 @@
 import React from 'react'
-import "./EnterMain.css"
-import Rabbit from '../Image/rabbit.png';
-
+import "../EnterMain.css"
+import Rabbit from '../../Image/rabbit.png';
 
 
 const FormHeader = props => (
@@ -30,7 +29,7 @@ const FormInput = props => (
   </div>  
 );
 
-const OtherMethods = props => (
+const RabbitImage = props => (
   <div id="alternativeLogin">
      <img className='enter-image' height={"150px"} src={Rabbit} alt='토끼사진' />
   </div>
@@ -40,9 +39,8 @@ function EnterMain() {
     return (
         <div id="loginform">
             <FormHeader title="동물상 미팅"/>
-            <OtherMethods/>
+            <RabbitImage/>
             <Form/>
-            
         </div>
     )
 }

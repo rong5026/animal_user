@@ -1,5 +1,5 @@
 import React from 'react'
-import "../EnterMain.css"
+import "../Login.css"
 import Rabbit from '../../Image/rabbit.png';
 
 
@@ -16,21 +16,21 @@ const Form = props => (
 );
 
 const FormButton = props => (
-  <div id="button" class="row">
+  <div id="button" className="row">
     <button>{props.title}</button>
     <button>{props.description}</button>
   </div>
 );
 
 const FormInput = props => (
-  <div class="row">
+  <div className="row">
     <label>{props.description}</label>
     <input type={props.type} placeholder={props.placeholder}/>
   </div>  
 );
 
 const RabbitImage = props => (
-  <div id="alternativeLogin">
+  <div id="enter-login">
      <img className='enter-image' height={"150px"} src={Rabbit} alt='토끼사진' />
   </div>
 );

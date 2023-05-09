@@ -4,6 +4,7 @@ import "../Login.css"
 import Rabbit from '../../Image/rabbit.png';
 import {db} from '../../Firebase/FirebaseConfig';
 import {collection, getDocs} from "firebase/firestore";
+import {Link} from "react-router-dom";
 
 const FormHeader = props => (<h2 id="headerTitle">{props.title}</h2>);
 
@@ -28,6 +29,11 @@ function EnterMain() {
         setInputPw(e.target.value)
     }
 
+    const onClickLogin = (e) => {
+        console.log("clicked")
+        // console.log(inputId) console.log(inputPw)
+    }
+
     useEffect(() => {
 
         const getUsers = async () => {
@@ -35,9 +41,7 @@ function EnterMain() {
             const data = await getDocs(usersCollectionRef);
             console.log(data);
         }
-
         getUsers();
-        console.log(process.env.REACT_APP_FIREBASE_APIKEY)
     }, [])
 
     return (
@@ -47,15 +51,25 @@ function EnterMain() {
             <div>
                 <div className="row">
                     <label>User Name</label>
-                    <input type="text" placeholder="ex) 홍길동"/>
+                    <input
+                        type="text"
+                        placeholder="ex) 홍길동"
+                        value={inputId}
+                        onChange={handleInputId}/>
                 </div>
                 <div className="row">
                     <label>Phone Number</label>
-                    <input type="password" placeholder="ex) 01012345678"/>
+                    <input
+                        type="password"
+                        placeholder="ex) 01012345678"
+                        value={inputPw}
+                        onChange={handleInputPw}/>
                 </div>
                 <div id="button" className="row">
-                    <button>미팅 참여</button>
-                    <button>동물상</button>
+                    <Link className='abc' to={`/main`}>
+                        <button className='login-button' onClick={onClickLogin}>미팅 참여</button>
+                    </Link>
+                    <button className='login-button'>동물상</button>
                 </div>
             </div>
         </div>

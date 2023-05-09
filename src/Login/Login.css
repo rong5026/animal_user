@@ -98,8 +98,12 @@ html{
 
 #button{
   padding-bottom: 1.5rem;
+  display: flex;
+  text-align: center;
 }
-
+.abc {
+  width: 100%;
+}
 
 #iconGroup{
   display: flex;

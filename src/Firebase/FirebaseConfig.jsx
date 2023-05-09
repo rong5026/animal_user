@@ -4,28 +4,25 @@
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { getFirestore } from "firebase/firestore/lite";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBikIej0o9VUyJ00ZFpKLFnqAQ3_qvU884",
-  authDomain: "animal-face-9bed1.firebaseapp.com",
-  projectId: "animal-face-9bed1",
-  storageBucket: "animal-face-9bed1.appspot.com",
-  messagingSenderId: "869451754767",
-  appId: "1:869451754767:web:5e8ae398548f942d79227a",
-  measurementId: "G-B9D4M13SX0"
+  apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId:process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_API_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
+
 
 
 const app = initializeApp(firebaseConfig);
 getAnalytics(app);
-
-// 이 값을 사용합니다.
 export const db = getFirestore(app);
  
 
-// const app = firebase.initializeApp(firebaseConfig);
 
-// export const db = getFirestore(app)
 
 

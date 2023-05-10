@@ -96,12 +96,12 @@ html{
   opacity: 0.8;
 }
 
-#button{
+#login-button{
   padding-bottom: 1.5rem;
   display: flex;
   text-align: center;
 }
-.abc {
+.button-link {
   width: 100%;
 }
 

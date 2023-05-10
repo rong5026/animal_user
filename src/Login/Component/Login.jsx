@@ -65,11 +65,11 @@ function EnterMain() {
                         value={inputPw}
                         onChange={handleInputPw}/>
                 </div>
-                <div id="button" className="row">
-                    <Link className='abc' to={`/main`}>
+                <div id="login-button" className="row">
+                    <Link className='button-link' to={`/main`}>
                         <button className='login-button' onClick={onClickLogin}>미팅 참여</button>
                     </Link>
-                    <button className='login-button'>동물상</button>
+                    <button className='login-button'>부스소개</button>
                 </div>
             </div>
         </div>

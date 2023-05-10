@@ -1,0 +1,59 @@
+#mainform {
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 700px;
+    width: 30%;
+    height: 60%;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding-bottom: 20px;
+}
+
+.mainform-title {
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    padding-bottom: 2rem;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.mainform-title-content {
+    display: flex;
+    flex-direction: row;
+    font-family: 'open sans', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 25px;
+    padding: 2rem 3rem;
+
+}
+
+.main-male-title {
+    /* background-color: violet; */
+
+}
+.main-gender-space {
+    width: 60px;
+    /* background-color: aqua; */
+}
+.main-female-title {
+    /* background-color: yellow; */
+}
+
+#male-text {
+    margin-left: 5px;
+    color: blue;
+}
+
+#femal-text {
+    margin-left: 5px;
+    color: red;
+}
+
+#main-button {
+    padding-bottom: 1.5rem;
+    display: flex;
+    text-align: center;
+}

@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 import "../Login.css"
 import Rabbit from '../../Image/rabbit.png';
 import {db} from '../../Firebase/FirebaseConfig';
-import {collection, getDocs} from "firebase/firestore";
+import {addDoc, collection, getDocs} from "firebase/firestore";
 import {Link} from "react-router-dom";
 
 const FormHeader = props => (<h2 id="headerTitle">{props.title}</h2>);
@@ -17,7 +17,7 @@ const RabbitImage = props => (
 const usersCollectionRef = collection(db, "animal-database");
 
 function EnterMain() {
-
+   
     const [inputId, setInputId] = useState('')
     const [inputPw, setInputPw] = useState('')
 
@@ -39,8 +39,25 @@ function EnterMain() {
         const getUsers = async () => {
             // getDocs로 컬렉션안에 데이터 가져오기
             const data = await getDocs(usersCollectionRef);
-            console.log(data);
+
+            // 문서이름
+            const datalist = data.docs.map(item => item.id)
+
+            // users안 데이터 전부 가져오기
+            // data.forEach((doc)=>{
+            //     console.log(doc.data())
+            // })
+           
         }
+
+        const addUsers = async () => {
+            await addDoc(usersCollectionRef, {
+                name: "tong",
+                phone: "12341111",
+                gender: "male"
+            })
+        }
+
         getUsers();
     }, [])
 

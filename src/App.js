@@ -3,6 +3,7 @@ import {BrowserRouter} from "react-router-dom";
 import { Routes, Route } from 'react-router-dom';
 import LoginPage from './Login/Component/Login.jsx'
 import MainPage from "./Main/Main.jsx"
+import MatchResult from './ Matching/MatchResult';
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Routes>
                 <Route exact path='/' element={<LoginPage/>}/>
                 <Route path="/main" element={<MainPage/>} />
+                <Route path="/result" element={<MatchResult/>} />
             </Routes>
         </BrowserRouter>
 

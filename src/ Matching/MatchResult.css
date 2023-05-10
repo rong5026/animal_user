@@ -1,0 +1,41 @@
+#matchform {
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 700px;
+    width: 30%;
+    height: 60%;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.match-title {
+    background-color: aqua;
+    width: 90%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.match-result {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.match-my-gender {
+    width: 50%;
+    height: 20rem;
+    background-color: yellowgreen;
+}
+
+.match-opponent-gender {
+    width: 50%;
+    background-color: cadetblue;
+
+}

@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 import "../Login.css"
 import Rabbit from '../../Image/rabbit.png';
 import {db} from '../../Firebase/FirebaseConfig';
-import {addDoc, collection, getDocs} from "firebase/firestore";
+import {addDoc, collection, getDocs, query, queryEqual, where} from "firebase/firestore";
 import {Link} from "react-router-dom";
 
 const FormHeader = props => (<h2 id="headerTitle">{props.title}</h2>);
@@ -29,9 +29,21 @@ function EnterMain() {
         setInputPw(e.target.value)
     }
 
-    const onClickLogin = (e) => {
+    const onClickLogin = async(e) => {
         console.log("clicked")
-        // console.log(inputId) console.log(inputPw)
+        
+        const q = query(usersCollectionRef, where("name","==", inputId), where("phone", "==", inputPw))
+        const querySnapshot = await getDocs(q);
+     
+        // querySnapshot.forEach((doc) => {
+        //   console.log(doc);
+        //   console.log(doc.id, " => ", doc.data());
+        // });
+        const data = querySnapshot.docs[0]._document.data.value.mapValue.fields;
+        console.log(data.name.value)
+        if (data.name == inputId && data.phone == inputPw) {
+            console.log("로그인")
+        }
     }
 
     useEffect(() => {
@@ -42,6 +54,8 @@ function EnterMain() {
 
             // 문서이름
             const datalist = data.docs.map(item => item.id)
+
+          
 
             // users안 데이터 전부 가져오기
             // data.forEach((doc)=>{

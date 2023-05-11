@@ -80,7 +80,6 @@ function MatchResult() {
                     }
                 </div>
             </div>
-
         </div>
     )
 }

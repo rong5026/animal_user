@@ -28,6 +28,7 @@ function EnterMain() {
 
     const [inputId, setInputId] = useState('')
     const [inputPw, setInputPw] = useState('')
+    const [isLogin, setIsLogin] = useState(false)
 
     const handleInputId = (e) => {
         setInputId(e.target.value)
@@ -72,7 +73,7 @@ function EnterMain() {
 
     }
 
-    const [isLogin, setIsLogin] = useState(false)
+    
 
     useEffect(() => {
 
@@ -105,7 +106,7 @@ function EnterMain() {
         <div>
             {
                 isLogin
-                    ? <Main/>
+                    ? <Main isLogin={isLogin}/>
                     : <div id="loginform">
                             <FormHeader title="동물상 미팅"/>
                             <RabbitImage/>

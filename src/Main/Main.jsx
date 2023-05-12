@@ -2,7 +2,15 @@ import React from 'react'
 import "./Main.css"
 import {Link} from "react-router-dom";
 
-function Main() {
+function Main({isLogin}) {
+
+    const onClickLogout = async (e) => {
+        console.log("로그아웃 버튼 눌림")
+        isLogin = false
+        sessionStorage.clear()
+        window.location.replace("/")
+
+    }
     return (
         <div>
 
@@ -29,6 +37,7 @@ function Main() {
                         <button className='login-button'>매칭 결과</button>
                     </Link>
                     <button className='login-button'>나의 동물상</button>
+                    <button className='logout-button' onClick={onClickLogout}>로그아웃</button>
                 </div>
 
             </div>

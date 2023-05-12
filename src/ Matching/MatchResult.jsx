@@ -1,6 +1,7 @@
 import React from 'react'
 import "./MatchResult.css"
 import {addDoc, collection, getDocs} from "firebase/firestore";
+import {useNavigate} from "react-router-dom";
 import {useState, useEffect} from 'react';
 import {db} from '../Firebase/FirebaseConfig';
 import animal1 from '../Image/자산 1.png'
@@ -16,6 +17,10 @@ function MatchResult() {
 
     useEffect(() => {
 
+        if (sessionStorage.getItem('user_id') === null) {
+            console.log("result page 세션업승ㅁ")
+
+        }
         const getUsers = async () => {
             // getDocs로 컬렉션안에 데이터 가져오기
             const data = await getDocs(usersCollectionRef);
@@ -43,6 +48,7 @@ function MatchResult() {
             <div className='match-title'>
                 매칭 결과
             </div>
+            
             <div className='match-result'>
                 <div className='match-my-gender'>
                     {
@@ -53,7 +59,7 @@ function MatchResult() {
                                         <img className='match-icon' src={animal1}></img>
                                     </div>
                                     <div className='match-animal-name'>
-                                        {list.name}
+                                            {list.name}
                                     </div>
                                 </div>
 
@@ -63,7 +69,7 @@ function MatchResult() {
                 </div>
                 <div className='empty-line'></div>
                 <div className='match-opponent-gender'>
-                {
+                    {
                         userData.map((list, index) => {
                             return (
                                 <div className='match-user-form'>

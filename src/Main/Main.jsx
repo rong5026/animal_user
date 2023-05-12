@@ -11,6 +11,7 @@ function Main({isLogin}) {
         window.location.replace("/")
 
     }
+   
     return (
         <div>
 
@@ -22,12 +23,12 @@ function Main({isLogin}) {
                     <div className='mainform-title-content'>
                         <div className='main-male-title'>
                             <div id='male-text'>남</div>
-                            <div>12</div>
+                            <div id='male-number'>12</div>
                         </div>
                         <div className='main-gender-space'></div>
                         <div className='main-female-title'>
                             <div id='femal-text'>여</div>
-                            <div>12</div>
+                            <div id='female-number'>12</div>
                         </div>
                     </div>
                 </div>
@@ -36,7 +37,10 @@ function Main({isLogin}) {
                     <Link className='button-link' to={`/result`}>
                         <button className='login-button'>매칭 결과</button>
                     </Link>
-                    <button className='login-button'>나의 동물상</button>
+                    <Link className='button-link' to={`/myanimal`}>
+                        <button className='login-button'>나의 동물상</button>
+                    </Link>
+                    
                     <button className='logout-button' onClick={onClickLogout}>로그아웃</button>
                 </div>
 

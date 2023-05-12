@@ -1,0 +1,47 @@
+
+
+#boothform{
+    max-width: 500px;
+    min-width: 300px;
+    /* max-height: 700px; */
+    width: 30%;
+    height: 60%;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .booth-title {
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    height: 30%;
+  }
+  
+  .booth-image-container {
+    width: 90%;
+    border-radius: 25px;
+    /* background-color: blueviolet; */
+  }
+  .booth-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .booth-content-container {
+    height: 70%;
+    width: 90%;
+    margin: 20px;
+  }
+
+
+
+  .booth-content {
+    border-radius: 25px;
+    height: 40vh;
+    background-color: aqua;
+    padding: 20px;
+  }

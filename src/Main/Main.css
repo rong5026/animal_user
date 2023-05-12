@@ -8,20 +8,19 @@
     background-color: #FFFFFF;
     border-radius: 25px;
     padding-bottom: 20px;
+    
 }
 
 .mainform-title {
     text-align: center;
-    font-family: 'open sans', sans-serif;
     padding-bottom: 2rem;
     margin: 0;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .mainform-title-content {
     display: flex;
     flex-direction: row;
-    font-family: 'open sans', sans-serif;
     font-size: 2rem;
     padding-bottom: 20px;
     background-color: rgb(234, 234, 234);
@@ -42,14 +41,26 @@
     /* background-color: yellow; */
 }
 
+#male-number {
+    font-size: 3rem;
+    margin-top: 2px;
+}
+
+#female-number {
+    font-size: 3rem;
+}
+
 #male-text {
+    font-size: 3rem;
     margin-left: 5px;
     color: blue;
 }
 
 #femal-text {
+    font-size: 3rem;
     margin-left: 5px;
     color: red;
+    margin-top: 2px;
 }
 
 #main-button {

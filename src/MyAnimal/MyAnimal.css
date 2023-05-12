@@ -1,0 +1,24 @@
+
+
+#myanimalform{
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 700px;
+  width: 30%;
+  height: 60%;
+  margin: 100px auto;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  display: flex;
+    flex-direction: column;
+  align-items: center;
+}
+
+.myanimal-title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.myanimal-image {
+    height: 20rem;
+}

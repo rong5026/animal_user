@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
-
 body{
   background: rgb(34,193,195);
   background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
-  font-family: "work sans";
   height: 100vh;
   width: 100%;
+  font-family: 'Dongle', sans-serif;
 }
 
 html{
   font-size: 100%;
+
 }
 
 #loginform{
@@ -21,14 +20,14 @@ html{
   margin: 100px auto;
   background-color: #FFFFFF;
   border-radius: 25px;
+  
 }
 
 #headerTitle{
   text-align: center;
-  font-family: 'open sans', sans-serif;
   padding: 2rem 0;
   margin: 0;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .row{
@@ -36,6 +35,7 @@ html{
   flex-direction: column;
   align-items: center;
   padding-top: 2rem;
+  font-size: 2rem;
   max-width: 100%;
   
 }
@@ -81,7 +81,8 @@ html{
   border-radius: 25px;
   width: 80%;
   height: 40px;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
+  font-family: 'Dongle', sans-serif;
   color: white;
   font-weight: 700;
   background: rgb(34,193,195);
@@ -90,6 +91,8 @@ html{
   cursor: pointer;
   transition: opacity 0.25s ease-out;
   margin-bottom: 10px;
+  padding-bottom: 10px;
+  
 }
 
 .row button:hover{
@@ -100,6 +103,7 @@ html{
   padding-bottom: 1.5rem;
   display: flex;
   text-align: center;
+
 }
 .button-link {
   width: 100%;

@@ -1,8 +1,8 @@
 import React from 'react'
 import {useState, useEffect} from 'react';
-import "../Login.css"
-import Rabbit from '../../Image/rabbit.png';
-import {db} from '../../Firebase/FirebaseConfig';
+import "./Enter.css"
+import Rabbit from '../Image/rabbit.png';
+import {db} from '../Firebase/FirebaseConfig';
 import {
     addDoc,
     collection,
@@ -11,10 +11,10 @@ import {
     queryEqual,
     where
 } from "firebase/firestore";
-import {Link, Redirect} from "react-router-dom";
-import Main from '../../Main/Main';
+import Main from '../Main/Main';
+import { Link } from 'react-router-dom';
 
-const FormHeader = props => (<h2 id="headerTitle">{props.title}</h2>);
+const FormHeader = props => (<h2 id="headerTitle">동물상 미팅</h2>);
 
 const RabbitImage = props => (
     <div id="enter-login">
@@ -40,7 +40,7 @@ function EnterMain() {
 
     const onClickLogin = async (e) => {
         console.log("clicked")
-
+        
         const q = query(
             usersCollectionRef,
             where("name", "==", inputId),
@@ -52,7 +52,9 @@ function EnterMain() {
         // => ", doc.data()); });
         let data = null
         if (querySnapshot.docs[0] == undefined) {
-            console.log("로그인 정보가 없음")
+            alert("로그인 정보가 틀렸습니다!")
+            setInputId('')
+            setInputPw('')
         } else {
             data = querySnapshot
                 .docs[0]
@@ -67,28 +69,24 @@ function EnterMain() {
                 sessionStorage.setItem('user_id', inputId)
                 setIsLogin(true)
             } else {
-                console.log("아이디 비밀번호가 틀립니다")
+                alert("비밀번호가 틀렸습니다!")
             }
         }
 
     }
 
-    
-
-    useEffect(() => {
-
-        const getUsers = async () => {
-            // getDocs로 컬렉션안에 데이터 가져오기 const data = await getDocs(usersCollectionRef); 문서이름
+   // getDocs로 컬렉션안에 데이터 가져오기 const data = await getDocs(usersCollectionRef); 문서이름
             // const datalist = data.docs.map(item => item.id) users안 데이터 전부 가져오기
             // data.forEach((doc)=>{     console.log(doc.data()) })
 
+    useEffect(() => {
+
+        // 페이지 전환
+        const setPage = async () => {
             if (sessionStorage.getItem('user_id') === null) {
-                console.log("세션업승ㅁ")
             } else {
                 setIsLogin(true)
-                console.log("세션있음")
             }
-
         }
 
         const addUsers = async () => {
@@ -99,7 +97,7 @@ function EnterMain() {
             })
         }
 
-        getUsers();
+        setPage();
     }, [])
 
     return (
@@ -108,7 +106,7 @@ function EnterMain() {
                 isLogin
                     ? <Main isLogin={isLogin}/>
                     : <div id="loginform">
-                            <FormHeader title="동물상 미팅"/>
+                            <FormHeader />
                             <RabbitImage/>
                             <div>
                                 <div className="row">
@@ -130,8 +128,10 @@ function EnterMain() {
                                 <div id="login-button" className="row">
 
                                     <button className='login-button' onClick={onClickLogin}>미팅 참여</button>
-
-                                    <button className='login-button'>부스소개</button>
+                                    <Link className='button-link' to={`/booth`}>
+                                        <button className='login-button'>부스소개</button>
+                                    </Link>
+                                    
                                 </div>
                             </div>
                         </div>

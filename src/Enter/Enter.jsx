@@ -134,7 +134,7 @@ function EnterMain() {
                                     <Link className='button-link' to={`/booth`}>
                                         <button className='login-button'>부스소개</button>
                                     </Link>
-                                    <Link className='button-link' to={`https://open.kakao.com/o/s3Dz8mkf`}>
+                                    <Link className='button-link' target='_blank' to={`https://open.kakao.com/o/s3Dz8mkf`}>
                                         <button className='login-button'>문의하기</button>
                                     </Link>
                                     

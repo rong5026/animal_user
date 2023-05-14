@@ -1,7 +1,10 @@
 import React from 'react'
 import {useState, useEffect} from 'react';
 import "./Enter.css"
-import Rabbit from '../Image/rabbit.png';
+import MainImage from '../Image/rabbit.png';
+import MainImage2 from "../Image/main2.png"
+import MainImage3 from "../Image/main3.png"
+
 import {db} from '../Firebase/FirebaseConfig';
 import {
     addDoc,
@@ -18,7 +21,7 @@ const FormHeader = props => (<h2 id="headerTitle">동물상 미팅</h2>);
 
 const RabbitImage = props => (
     <div id="enter-login">
-        <img className='enter-image' height={"150px"} src={Rabbit} alt='토끼사진'/>
+        <img className='enter-image' height={"150px"} src={MainImage3} alt='토끼사진'/>
     </div>
 );
 

@@ -4,11 +4,36 @@ import {addDoc, collection, getDocs} from "firebase/firestore";
 import {useNavigate} from "react-router-dom";
 import {useState, useEffect} from 'react';
 import {db} from '../Firebase/FirebaseConfig';
-import animal1 from '../Image/자산 1.png'
-import animal2 from '../Image/자산 2.png'
+import ggobokImage from '../Image/icon/ggobok.png'
+import catImage from '../Image/icon/cat.png'
+import dogImage from '../Image/icon/dog.png'
+import deerImage from '../Image/icon/deer.png'
+
 
 const userMatchForm = props => (<div></div>);
 
+
+function matchImage(name) {
+    switch(name){
+        case "deer" :
+            return (
+                <img className='match-icon' src={deerImage}></img>
+            )
+        case "cat" :
+            return (
+                <img className='match-icon' src={catImage}></img>
+            )
+        case "dog" :
+            return (
+                <img className='match-icon' src={dogImage}></img>
+            )
+        default:
+            return (
+                <img className='match-icon' src={ggobokImage}></img>
+            )
+
+    }
+}
 function MatchResult() {
 
     const usersCollectionRef = collection(db, process.env.REACT_APP_FIREBASE_USER_DATABASE);
@@ -32,8 +57,11 @@ function MatchResult() {
                 const newData = {
                     name: data.name,
                     phone: data.phone,
-                    gender: data.gender
+                    gender: data.gender,
+                    icon : data.icon
                 }
+                
+            
                 setUserData(userData => [
                     ...userData,
                     newData
@@ -56,10 +84,14 @@ function MatchResult() {
                             return (
                                 <div className='match-user-form'>
                                     <div className='match-icon-container'>
-                                        <img className='match-icon' src={animal1}></img>
+                                        {matchImage(list.icon)}
+                                        {/* <img className='match-icon' src={animal1}></img> */}
                                     </div>
                                     <div className='match-animal-name'>
-                                            {list.name}
+                                        {
+                                            list.name == sessionStorage.getItem('user_id') ? "본인" :  list.icon
+                                        }
+                                           
                                     </div>
                                 </div>
 
@@ -74,10 +106,13 @@ function MatchResult() {
                             return (
                                 <div className='match-user-form'>
                                     <div className='match-icon-container'>
-                                        <img className='match-icon' src={animal2}></img>
+                                        {matchImage(list.icon)}
+                                        {/* <img className='match-icon' src={animal2}></img> */}
                                     </div>
                                     <div className='match-animal-name'>
-                                        {list.name}
+                                    {
+                                            list.name == sessionStorage.getItem('user_id') ? "본인" :  list.icon
+                                        }
                                     </div>
                                 </div>
 

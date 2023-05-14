@@ -22,7 +22,7 @@ const RabbitImage = props => (
     </div>
 );
 
-const usersCollectionRef = collection(db, "animal-database");
+const usersCollectionRef = collection(db, process.env.REACT_APP_FIREBASE_USER_DATABASE);
 
 function EnterMain() {
 

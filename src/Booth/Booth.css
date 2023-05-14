@@ -3,7 +3,7 @@
 #boothform{
     max-width: 500px;
     min-width: 300px;
-    /* max-height: 700px; */
+    max-height: 100%;
     width: 30%;
     height: 60%;
     margin: 100px auto;
@@ -17,7 +17,6 @@
     font-size: 4rem;
     margin-top: 10px;
     margin-bottom: 2rem;
-    height: 30%;
   }
   
   .booth-image-container {
@@ -32,15 +31,15 @@
   }
 
   .booth-content-container {
-    height: 70%;
     width: 90%;
     margin: 20px;
+    height: 100%;
   }
 
   .booth-content {
     border-radius: 25px;
-    height: 40vh;
-    background-color: aqua;
+    height: 100%;
+    background-color: rgb(234, 234, 234);
     padding: 20px;
     font-size: 1.4rem;
   }

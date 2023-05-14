@@ -27,12 +27,7 @@ function Booth() {
                   미팅에 참여하시면 형광 팔찌를 받아가실 수 있습니다. <br></br>
                   1 : 1 미팅 <br></br> 2 : 2 미팅, <br></br> 3 : 3 미팅까지 <br/><br/>
                 </span>
-
-                
             </div>
-            <div>
-            </div>
-
         </div>
     </div>
   )

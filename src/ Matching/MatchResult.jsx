@@ -11,7 +11,7 @@ const userMatchForm = props => (<div></div>);
 
 function MatchResult() {
 
-    const usersCollectionRef = collection(db, "animal-database");
+    const usersCollectionRef = collection(db, process.env.REACT_APP_FIREBASE_USER_DATABASE);
 
     const [userData, setUserData] = useState([])
 

@@ -37,11 +37,16 @@
     margin: 20px;
   }
 
-
-
   .booth-content {
     border-radius: 25px;
     height: 40vh;
     background-color: aqua;
     padding: 20px;
+    font-size: 1.4rem;
+  }
+  .booth-content-title {
+    font-size: 2rem;
+  }
+  .booth-content-sub-title {
+    font-size: 1.6rem;
   }

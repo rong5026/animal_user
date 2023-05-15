@@ -4,6 +4,8 @@ import "./Enter.css"
 import MainImage from '../Image/rabbit.png';
 import MainImage2 from "../Image/main2.png"
 import MainImage3 from "../Image/main3.png"
+import MainPuppy from "../Image/main_puppy.png"
+import MainCat from "../Image/main_cat.png"
 
 import {db} from '../Firebase/FirebaseConfig';
 import {
@@ -21,7 +23,7 @@ const FormHeader = props => (<h2 id="headerTitle">동물상 미팅</h2>);
 
 const RabbitImage = props => (
     <div id="enter-login">
-        <img className='enter-image' height={"150px"} src={MainImage3} alt='토끼사진'/>
+        <img className='enter-image' height={"150px"} src={MainPuppy} alt='토끼사진'/>
     </div>
 );
 

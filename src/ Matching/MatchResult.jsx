@@ -14,11 +14,11 @@ const userMatchForm = props => (<div></div>);
 
 function matchImage(name) {
     switch (name) {
-        case "deer":
+        case "사슴상":
             return (<img className='match-icon' src={deerImage}></img>)
-        case "cat":
+        case "고양이상":
             return (<img className='match-icon' src={catImage}></img>)
-        case "dog":
+        case "강아지상":
             return (<img className='match-icon' src={dogImage}></img>)
         default:
             return (<img className='match-icon' src={ggobokImage}></img>)

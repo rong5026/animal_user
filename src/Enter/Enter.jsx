@@ -23,7 +23,7 @@ const FormHeader = props => (<h2 id="headerTitle">동물상 미팅</h2>);
 
 const RabbitImage = props => (
     <div id="enter-login">
-        <img className='enter-image' height={"150px"} src={MainPuppy} alt='토끼사진'/>
+        <img className='enter-image' height={"150px"} src={ props.image_id == 0 ? MainPuppy : props.image_id == 1 ? MainCat : MainImage3} alt='토끼사진'/>
     </div>
 );
 
@@ -34,6 +34,9 @@ function EnterMain() {
     const [inputId, setInputId] = useState('')
     const [inputPw, setInputPw] = useState('')
     const [isLogin, setIsLogin] = useState(false)
+    const [logoId, setLogoId] = useState(0)
+    const getRandom = (min, max) => Math.floor(Math.random() * (max - min) + min);
+
 
     const handleInputId = (e) => {
         setInputId(e.target.value)
@@ -101,7 +104,8 @@ function EnterMain() {
                 gender: "male"
             })
         }
-
+        setLogoId(getRandom(0, 3));
+        console.log(logoId)
         setPage();
     }, [])
 
@@ -112,7 +116,7 @@ function EnterMain() {
                     ? <Main isLogin={isLogin}/>
                     : <div id="loginform">
                             <FormHeader />
-                            <RabbitImage/>
+                            <RabbitImage image_id={logoId}/>
                             <div>
                                 <div className="row">
                                     <label>User Name</label>

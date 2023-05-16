@@ -75,6 +75,7 @@ function EnterMain() {
             if (data.name.stringValue == inputId && data.phone.stringValue == inputPw) {
                 console.log("로그인")
                 sessionStorage.setItem('user_id', inputId)
+                sessionStorage.setItem('user_phone', inputPw)
                 setIsLogin(true)
             } else {
                 alert("비밀번호가 틀렸습니다!")
@@ -97,15 +98,15 @@ function EnterMain() {
             }
         }
 
-        const addUsers = async () => {
-            await addDoc(usersCollectionRef, {
-                name: "tong",
-                phone: "12341111",
-                gender: "male"
-            })
-        }
+        // const addUsers = async () => {
+        //     await addDoc(usersCollectionRef, {
+        //         name: "tong",
+        //         phone: "12341111",
+        //         gender: "male"
+        //     })
+        // }
+
         setLogoId(getRandom(0, 3));
-        console.log(logoId)
         setPage();
     }, [])
 

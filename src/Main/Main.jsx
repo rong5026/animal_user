@@ -19,7 +19,6 @@ function Main({isLogin}) {
     const [femaleNumber, setFealeNumber] = useState(0)
 
     useEffect(() => {
-        console.log("매칭인원 가져오기")
         const getParticipant = async () => {
             const getData = await getDocs(participantCollectionRef);
             const data = getData.docs[0]._document.data.value.mapValue.fields
@@ -37,7 +36,7 @@ function Main({isLogin}) {
     }
     
     return (
-        <div>
+        <div className='mainform-container'>
 
             <div id='mainform'>
                 <div className='row'>

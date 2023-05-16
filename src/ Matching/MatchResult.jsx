@@ -39,8 +39,8 @@ function MatchResult() {
     );
 
     const [userData, setUserData] = useState([])
-    const [otherData, setOtherData] = useState([])
     const [teamNumber, setTeamNumber] = useState("0")
+    const [kakaoNumber, setKakaoNumver] = useState('')
 
     useEffect( () => {
 
@@ -62,11 +62,12 @@ function MatchResult() {
             .mapValue
             .fields;
 
-            if (data.team.stringValue == "0" || querySnapshot.docs.length == 1) {
+            if (data.team.stringValue == "0") {
                console.log("매칭이 되지 않았습니다!")
             } else {
                 console.log("매칭이 되었습니다")
                 setTeamNumber(data.team.stringValue);
+                setKakaoNumver(data.kakao.stringValue);
             }
         }
         getTeamNumber()
@@ -78,8 +79,7 @@ function MatchResult() {
 
         const getUsers = async () => {
             
-            console.log(teamNumber)
-            if (teamNumber != "0")
+            if (teamNumber != "0" )
             {
                 console.log(teamNumber)
                 const q = query(
@@ -96,7 +96,9 @@ function MatchResult() {
                         name: data.name,
                         phone: data.phone,
                         gender: data.gender,
-                        icon: data.icon
+                        icon: data.icon,
+                        kakao: data.kakao
+
                     }
     
                     setUserData(userData => [
@@ -110,7 +112,6 @@ function MatchResult() {
            
         }
         getUsers()
-
 
     },[teamNumber])
 
@@ -175,13 +176,11 @@ function MatchResult() {
                     }
                 </div>
             </div>
-            {
-                teamNumber != "0" ? <div className="kakao-button-container">
-                <Link className='button-link' to={`https://open.kakao.com/o/gX0q1mkf`} target='_blank'>
+            <div className="kakao-button-container">
+                <Link className='button-link' to={kakaoNumber} target='_blank'>
                     <button className='kakao-button'>오픈채팅 참여</button>
                 </Link>
-            </div> : <div style={{fontSize:"25px"}}>매칭이 완료되면 오픈채팅 버튼이 보여요! </div>
-            }
+            </div> 
             
         </div>
     )

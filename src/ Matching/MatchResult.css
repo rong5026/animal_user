@@ -97,3 +97,8 @@
 .empty-line {
     width: 10px;
 }
+
+.matchform-container {
+    height: 100%;
+    width: 100%;
+}

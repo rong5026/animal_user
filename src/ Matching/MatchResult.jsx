@@ -12,10 +12,14 @@ import {
     where
 } from "firebase/firestore";
 import { Link } from 'react-router-dom';
+import bearImage from '../Image/icon/bear.png';
+import dinosuarImage from '../Image/icon/dinosaur.png'
 import ggobokImage from '../Image/icon/ggobok.png'
 import catImage from '../Image/icon/cat.png'
 import dogImage from '../Image/icon/dog.png'
 import deerImage from '../Image/icon/deer.png'
+import foxImage from '../Image/icon/fox.png'
+import rabbitImage from '../Image/icon/rabbit.png'
 
 
 function matchImage(name) {
@@ -26,6 +30,16 @@ function matchImage(name) {
             return (<img className='match-icon' src={catImage}></img>)
         case "강아지상":
             return (<img className='match-icon' src={dogImage}></img>)
+        case "곰상":
+            return (<img className='match-icon' src={bearImage}></img>)
+        case "공룡상":
+            return (<img className='match-icon' src={dinosuarImage}></img>)
+        case "꼬부기상":
+            return (<img className='match-icon' src={ggobokImage}></img>)
+        case "여우상":
+            return (<img className='match-icon' src={foxImage}></img>)
+        case "토끼상":
+            return (<img className='match-icon' src={rabbitImage}></img>)
         default:
             return (<img className='match-icon' src={ggobokImage}></img>)
 
@@ -146,7 +160,6 @@ function MatchResult() {
     
                                 );
                             }
-                            
                         })
                     }
                 </div>
@@ -177,7 +190,7 @@ function MatchResult() {
                 </div>
             </div>
             <div className="kakao-button-container">
-                <Link className='button-link' to={kakaoNumber} target='_blank'>
+                <Link className='button-link' to={"https://open.kakao.com/o/gB6RaJkf"} target='_blank'>
                     <button className='kakao-button'>오픈채팅 참여</button>
                 </Link>
             </div> 

@@ -76,6 +76,7 @@ function EnterMain() {
                 console.log("로그인")
                 sessionStorage.setItem('user_id', inputId)
                 sessionStorage.setItem('user_phone', inputPw)
+                sessionStorage.setItem('user_animal', data.icon.stringValue )
                 setIsLogin(true)
             } else {
                 alert("비밀번호가 틀렸습니다!")

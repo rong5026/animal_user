@@ -190,7 +190,7 @@ function MatchResult() {
                 </div>
             </div>
             <div className="kakao-button-container">
-                <Link className='button-link' to={"https://open.kakao.com/o/gB6RaJkf"} target='_blank'>
+                <Link className='button-link' to={kakaoNumber} target='_blank'>
                     <button className='kakao-button'>오픈채팅 참여</button>
                 </Link>
             </div> 

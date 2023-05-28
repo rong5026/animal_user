@@ -16,6 +16,7 @@ function App() {
                 <Route path="/result" element={<MatchResult/>} />
                 <Route path='/myanimal' element={<MyAnimal/>}/>
                 <Route path='/booth' element={<Booth/>}/>
+                <Route path='/content'></Route>
             </Routes>
         </BrowserRouter>
 

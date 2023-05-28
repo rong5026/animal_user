@@ -76,6 +76,7 @@ function EnterMain() {
                 console.log("로그인")
                 sessionStorage.setItem('user_id', inputId)
                 sessionStorage.setItem('user_phone', inputPw)
+                sessionStorage.setItem('user_animal', data.icon.stringValue )
                 setIsLogin(true)
             } else {
                 alert("비밀번호가 틀렸습니다!")
@@ -139,7 +140,7 @@ function EnterMain() {
 
                                     <button className='login-button' onClick={onClickLogin}>미팅 참여</button>
                                     <Link className='button-link' to={`/booth`}>
-                                        <button className='login-button'>부스소개</button>
+                                        <button className='login-button'>미팅 안내</button>
                                     </Link>
                                     <Link className='button-link' target='_blank' to={`https://open.kakao.com/o/s3Dz8mkf`}>
                                         <button className='login-button'>문의하기</button>

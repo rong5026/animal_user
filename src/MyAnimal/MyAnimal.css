@@ -20,5 +20,9 @@
 }
 
 .myanimal-image {
-    height: 20rem;
+    height: 100%;
+}
+.myanimal-name {
+  font-size: 3.5rem;
+  margin: 20px 0px;
 }

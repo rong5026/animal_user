@@ -18,9 +18,9 @@
 
 ## 프로젝트 구성 화면 예시
 
-|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/c4989662-8b98-4e54-bf01-010e092d4bb6" height="550" width="100%" >|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/2439bc02-9eff-456f-9a18-199524282e71" height="550" width="100%"> |
-|:---:|:---:|
-|시작 화면|미팅 참여 화면|
+|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/c4989662-8b98-4e54-bf01-010e092d4bb6" height="550" width="100%" >|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/2439bc02-9eff-456f-9a18-199524282e71" height="550" width="100%"> |<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/d92c3db0-0485-4bb9-baf5-b3e8d6a19e03" height="550" width="100%"> |
+|:---:|:---:|:---:|
+|시작 화면|미팅 참여 화면|매칭 결과 화면|
 ## 프로젝트 주요 기능
 
 ## ⚙️ 개발 환경

@@ -18,8 +18,8 @@
 
 ## 프로젝트 구성 화면 예시
 
-|![image1](https://github.com/AnimalFaceProject/animal_user/assets/77156858/cef8b5db-28cd-48c8-80d3-28f1a8ba591a.png)
-|![image2](https://github.com/AnimalFaceProject/animal_user/assets/77156858/2439bc02-9eff-456f-9a18-199524282e71)|
+|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/c4989662-8b98-4e54-bf01-010e092d4bb6" height="200" width="300" >
+|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/2439bc02-9eff-456f-9a18-199524282e71" height="200" width="300"> |
 |:---:|:---:|
 |시작 화면|사용자 정보 화면|
 ## 프로젝트 주요 기능

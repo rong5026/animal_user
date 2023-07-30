@@ -19,19 +19,7 @@
 
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/>
   
-  
-  <a href="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml">
-    <img alt="GitHub Actions" src="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml/badge.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
-    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
-    <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
-  </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
-    <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
-  </a>
+ 
 </div>
 
 <br />
@@ -45,7 +33,7 @@
     
 ## 🖥️ 프로젝트 소개
 - 2022 세종대학교 축제 (05.17 - 05.19) 낮부스를 운영을 진행하였습니다.
-- 실제로 사용자가 이용할 수 있는 서비스를 제작해보고 수익창출 까지 경험해보고자 동물상미팅(AnimalFace Meeting)을 개발하게 되었습니다.
+- 실제로 사용자가 이용할 수 있는 서비스를 제작해보고 수익창출 까지 경험해보고자 <br>동물상미팅(AnimalFace Meeting)을 개발하게 되었습니다.
 
 ## ⚙️ 프로젝트 주요 기능
 
@@ -101,5 +89,4 @@
     $ npm start
 
 
-## 저작권
 </hr>

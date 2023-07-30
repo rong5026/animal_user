@@ -13,9 +13,13 @@
 </p>
 
 <div align="center">
-  <a href="https://www.paypal.me/posquit0">
-    <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
-  </a>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>
+
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/>
+  
+  
   <a href="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml">
     <img alt="GitHub Actions" src="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml/badge.svg" />
   </a>
@@ -38,24 +42,29 @@
 - 개발 배경 : 세종대학교 2022축제 낮부스 운영
 - 개발 언어 : JavaScript
 - 프레임워크 : React
-- 멤버 : 홍영환, 조준희
     
 ## 🖥️ 프로젝트 소개
- 2022 세종대학교 축제 (05.17 - 05.19) 낮부스를 운영을 진행하였습니다.<br> 실제로 사용자가 이요할 수 있는 서비스를 제작해보고 수익창출 까지 경험해보고자 동물상미팅(AnimalFace Meeting)을 개발하게 되었습니다.
+- 2022 세종대학교 축제 (05.17 - 05.19) 낮부스를 운영을 진행하였습니다.
+- 실제로 사용자가 이용할 수 있는 서비스를 제작해보고 수익창출 까지 경험해보고자 동물상미팅(AnimalFace Meeting)을 개발하게 되었습니다.
 
 ## ⚙️ 프로젝트 주요 기능
+
+<a href="https://github.com/rong5026/animal_user">
+동물상 매칭 웹 서비스
+</a>
+
 - 로그인
 - 미팅참여 인원
 - 매칭결과 확인
 - 오픈채팅 참여
-<br>
-<br>
-<strong>운영방법
-1. 축제현장에서 자신의 동물상을 측정 후 등록
-2. 이름과 전화번호로 웹사이트 로그인
-3. 오후 6시에 매칭이 완료되면 매칭결과 확인
-4. 오픈채팅방에 참여하여 미팅참가 완료!
 
+
+<a href="https://github.com/AnimalFaceProject/animal_front">
+동물상 측정 웹 서비스
+</a>
+
+- 동물상 측정
+- 참여 인원 확인
 
 
 ## 🕰️ 개발 기간

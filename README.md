@@ -87,8 +87,6 @@
 - `React 18.2.0`
 ## 시작 가이드
 
-<strong>Installation
-
     $ git clone https://github.com/AnimalFaceProject/animal_user.git
     $ cd animal_user
     $ npm install

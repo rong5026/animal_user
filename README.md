@@ -1,4 +1,4 @@
-🐶 동물상 미팅
+## 동물상 미팅 
 =============
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ## 📌 프로젝트 메인 페이지
 
-|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/c4989662-8b98-4e54-bf01-010e092d4bb6" height="500" width="100%" >|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/2439bc02-9eff-456f-9a18-199524282e71" height="500" width="100%"> |<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/d92c3db0-0485-4bb9-baf5-b3e8d6a19e03" height="500" width="100%"> |
+|<img src="https://github.com/En-soso-com/Android/assets/77156858/8f73007e-c011-4b52-909d-c2288b7fe213" height="500" width="100%" >|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/2439bc02-9eff-456f-9a18-199524282e71" height="500" width="100%"> |<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/d92c3db0-0485-4bb9-baf5-b3e8d6a19e03" height="500" width="100%"> |
 |:---:|:---:|:---:|
 |시작 화면|미팅 참여 화면|매칭 결과 화면|
 

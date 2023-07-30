@@ -1,10 +1,35 @@
- 동물상 미팅 
-=============
 
+
+<h1 align="center">
+  <a href="https://github.com/rong5026/animal_user" title="AwesomeCV Documentation">
+    <img alt="AwesomeCV" src="https://github.com/En-soso-com/Android/assets/77156858/5dfcbeaf-a3ee-4604-adbd-89d149f467b8" width="200px" height="200px" />
+  </a>
+  <br />
+  동물상 미팅
+</h1>
 <p align="center">
-    <img src="https://github.com/En-soso-com/Android/assets/77156858/5dfcbeaf-a3ee-4604-adbd-89d149f467b8" width="150">
-
+  자신의 동물상을 측정하고 원하는 동물상과 매칭을 시켜주는 서비스입니다.
 </p>
+
+<div align="center">
+  <a href="https://www.paypal.me/posquit0">
+    <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
+  </a>
+  <a href="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml">
+    <img alt="GitHub Actions" src="https://github.com/posquit0/Awesome-CV/actions/workflows/main.yml/badge.svg" />
+  </a>
+  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
+    <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
+  </a>
+  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
+    <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
+  </a>
+  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
+    <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
+  </a>
+</div>
+
+<br />
     
 ## 🖥️ 프로젝트 소개
 

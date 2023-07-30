@@ -18,6 +18,8 @@
   <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"/>
 
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Teachable Machine-40AEF0?style=flat&logo=&logoColor=white"/>
   
  
 </div>
@@ -61,7 +63,7 @@
 ## 👬 팀 소개
 - 홍영환 - 백엔드(Firebase) , <a href="https://github.com/rong5026/animal_user">
 유저매칭 웹(React)
-</a> <br>
+</a> , 동물상 모델 제작 (Teachable Machine)<br>
 - 조준희 - <a href="https://github.com/AnimalFaceProject/animal_front">
 동물상 측정 웹(React)
 </a>, 동물상 모델 제작 (Teachable Machine)

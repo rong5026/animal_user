@@ -2,9 +2,8 @@
 =============
 
 <p align="center">
-    <img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/b08c4184-150a-49a9-8863-9c4dfc35c58b" width="300">
-<!-- <img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/fb81d2f7-4b41-49b0-a284-c9c22bc02706" width="300"> -->
-<!-- <img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/57f64553-522a-4f55-8f9c-935526a1fe45" width="318"> -->
+    <img src="https://github.com/En-soso-com/Android/assets/77156858/5dfcbeaf-a3ee-4604-adbd-89d149f467b8" width="150">
+
 </p>
     
 ## 🖥️ 프로젝트 소개

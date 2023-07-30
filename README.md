@@ -59,8 +59,12 @@
 - 22.05.04일 - 22.05.16일
 
 ## 👬 팀 소개
-- 홍영환 - 백엔드(Firebase) , 유저매칭 웹(React) <br>
-- 조준희 - 동물상 측정 웹(React), 동물상 모델 제작 (Teachable Machine)
+- 홍영환 - 백엔드(Firebase) , <a href="https://github.com/rong5026/animal_user">
+유저매칭 웹(React)
+</a> <br>
+- 조준희 - <a href="https://github.com/AnimalFaceProject/animal_front">
+동물상 측정 웹(React)
+</a>, 동물상 모델 제작 (Teachable Machine)
 
 ## 📌 프로젝트 메인 페이지
 

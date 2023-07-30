@@ -18,13 +18,13 @@
 
 ## 📌 프로젝트 메인 페이지
 
-|<img src="https://github.com/En-soso-com/Android/assets/77156858/8f73007e-c011-4b52-909d-c2288b7fe213" height="500" width="100%" >|<img src="https://github.com/En-soso-com/Android/assets/77156858/d6347840-4882-4c48-a2c1-439d100a4255" height="500" width="100%"> |<img src="https://github.com/En-soso-com/Android/assets/77156858/6e689579-1e00-4860-93c9-41977e50d961" height="500" width="100%"> |
+|<img src="https://github.com/En-soso-com/Android/assets/77156858/8f73007e-c011-4b52-909d-c2288b7fe213" height="400" width="100%" >|<img src="https://github.com/En-soso-com/Android/assets/77156858/d6347840-4882-4c48-a2c1-439d100a4255" height="400" width="100%"> |<img src="https://github.com/En-soso-com/Android/assets/77156858/6e689579-1e00-4860-93c9-41977e50d961" height="400" width="100%"> |
 |:---:|:---:|:---:|
 |시작 화면|미팅 참여 화면|매칭 결과 화면|
 
 ## 📌 프로젝트 안내 페이지
 
-|<img src="https://github.com/En-soso-com/Android/assets/77156858/c9fd6046-57d9-4138-8119-851625443e53" height="500" width="100%" >|<img src="https://github.com/En-soso-com/Android/assets/77156858/ad5f62a7-b9ff-45dc-bfe2-5c0b64afe2ac" height="500" width="100%"> |<img src="https://github.com/En-soso-com/Android/assets/77156858/8029984b-6ca2-4a5e-be5b-cd6d17b8123f" height="500" width="100%"> |
+|<img src="https://github.com/En-soso-com/Android/assets/77156858/c9fd6046-57d9-4138-8119-851625443e53" height="400" width="100%" >|<img src="https://github.com/En-soso-com/Android/assets/77156858/ad5f62a7-b9ff-45dc-bfe2-5c0b64afe2ac" height="400" width="100%"> |<img src="https://github.com/En-soso-com/Android/assets/77156858/8029984b-6ca2-4a5e-be5b-cd6d17b8123f" height="400" width="100%"> |
 |:---:|:---:|:---:|
 |미팅 안내1|미팅 안내2|미팅 안내3|
 ## 프로젝트 주요 기능

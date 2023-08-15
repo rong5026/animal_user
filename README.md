@@ -97,7 +97,7 @@
 |:---:|:---:|
 |Firbase 사용1|Firbase 사용2|
 
-|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/f9ae7b30-a51a-405a-a998-58c5f2711101" height="400" width="100%">|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/bf0ce49c-cbc5-4c70-bbbc-8970795d0267" height="400" width="100%"> |
+|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/f9ae7b30-a51a-405a-a998-58c5f2711101" height="400" width="100%">|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/8d4b7aaa-cae3-4527-aa42-39bed357129b" height="400" width="100%"> |
 |:---:|:---:|
 |Firbase 사용3|테이블 구조|
 ## ⚙️ 개발 환경

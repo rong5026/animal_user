@@ -93,10 +93,11 @@
 ##  💾 백엔드 
 |<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/89cc43da-9595-4dbb-927a-a46ab12f783f" height="400" width="100%" >|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/d113c323-e6f1-4b78-bfc4-9a07d881a5ca" height="400" width="100%" > |
 |:---:|:---:|
-|미팅 안내1|미팅 안내2|
-|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/bf0ce49c-cbc5-4c70-bbbc-8970795d0267" height="400" width="100%">|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/f9ae7b30-a51a-405a-a998-58c5f2711101" height="400" width="100%"> |
+|Firbase 사용1|Firbase 사용2|
+
+|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/f9ae7b30-a51a-405a-a998-58c5f2711101" height="400" width="100%">|<img src="https://github.com/AnimalFaceProject/animal_user/assets/77156858/bf0ce49c-cbc5-4c70-bbbc-8970795d0267" height="400" width="100%"> |
 |:---:|:---:|
-|미팅 안내1|미팅 안내2|
+|Firbase 사용3|테이블 구조|
 ## ⚙️ 개발 환경
 - `Node.js 20.3.0`
 - `Npm 9.6.7`

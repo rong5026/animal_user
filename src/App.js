@@ -24,8 +24,3 @@ function App() {
 }
 
 export default App;
-
-// import { Routes, Route } from 'react-router-dom'; import { useEffect } from
-// 'react'; import EnterPage from './Login/Component/Login.jsx' function App() {
-// return (    <Routes>       <Route exact path='/' element={<EnterPage/>}/>
-// </Routes>   ); } export default App;

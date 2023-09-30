@@ -33,6 +33,7 @@
 - 개발 언어 : JavaScript
 - 프론트 : React
 - 백엔드 : Firebase
+- AI : Teachable Machine
     
 ## 🖥️ 프로젝트 소개
 - 2022 세종대학교 축제 (05.17 - 05.19) 낮부스를 운영을 진행하였습니다.

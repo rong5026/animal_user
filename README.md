@@ -21,7 +21,14 @@
 
 <img src="https://img.shields.io/badge/Teachable Machine-40AEF0?style=flat&logo=&logoColor=white"/>
   
- 
+ <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Amazon S3-569A31?style=flat&logo=amazons3&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=flat&logo=amazonrds&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+
 </div>
 
 <br />
@@ -35,7 +42,7 @@
 hongyeonghwan.com">www.
 hongyeonghwan.com</a>
 - 프론트 : React
-- 백엔드 : Firebase
+- 백엔드 : Firebase, EC2 , RDS, S3
 - AI : Teachable Machine
     
 ## 🖥️ 프로젝트 소개
